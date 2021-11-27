@@ -1,0 +1,666 @@
+body{
+    margin: 0;
+}
+header{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+   
+}
+.navigation{
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+}
+.logo{
+        margin-left: 30px;
+        height: 100%;
+        width: 200px;
+        float: left;
+    
+}
+.logo h1 {
+    float: left;
+    text-decoration: none;
+    font-family: system-ui;
+    font-size: 22px;
+    margin-top: 20px;
+    text-align: center;
+    color: #1f3890;
+}
+.logo i {
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+    margin-right: 5px;
+    float: left;
+    color: #1f3890;
+}
+
+
+.menu {
+    float: right;
+    height: 100%;
+    width: 70px;
+}
+.menu i {
+    position: relative;
+    float: left;
+    font-size: 40px;
+    margin: 15px;
+    left: 5px;
+    color: #1f3890;
+}
+
+.menu:hover{
+    background-color: #f8f9fd;
+}
+
+.nav-link {
+    float: right;
+    height: 100%;
+    width: 60px;
+    text-decoration: none;
+}
+.nav-link h1 {
+    font-family: system-ui;
+    font-size: 15px;
+    margin-top: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: #1f3890;
+}
+.nav-link:hover{
+    background-color: #f8f9fd;
+    
+}
+
+.lane1 {
+    height: 30px;
+    width: 1px;
+    float: right;
+    top: 18px;
+    left: -10px;
+    position: relative;
+    background-color: rgba(202, 202, 202, 0.753);
+}
+
+.country {
+    position: relative;
+    left: -18px;
+    float: right;
+    height: 100%;
+    width: 150px;
+    margin-right: 15px;
+    margin-left: 25px;
+    padding-left: 6px;
+    padding: 0;
+}
+.country i {
+    position: relative;
+    float: left;
+    font-size: 20px;
+    top: 5px;
+    color: #1f3890;
+}
+.country h1 {
+    z-index: 2;
+    float: right;
+    font-family: system-ui;
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: center;
+    color: #1f3890;
+}
+.country button:hover{
+    background-color: #f8f9fd;
+}
+
+.country button{
+    position: relative;
+    z-index: 1;
+    float: left;
+    height: 100%;
+    width: 100%;
+    border: 0;
+    padding: 0;
+    background: #ffff;
+}
+.country button:focus~.dropdown{
+    display: block;
+    background-color: #ffff;
+}
+
+.dropdown{
+    display: none;
+    margin-top: -19px;
+    width: 100%;
+    background-color:rgb(238, 236, 236)
+}
+.dropdown ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: -19px;
+}
+.dropdown ul li{
+    padding: 0;
+    margin: 0;
+}
+.dropdown ul li img{
+    float: left;
+    position: relative;
+    height: 20px;
+}
+.dropdown ul li h1{
+    position: relative;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    color: #6A5E72;
+    display: block;
+}
+.dropdown ul li h2{
+    float: left;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    color: #6A5E72;
+    display: block;
+}
+.dropdown ul li a:hover{
+    text-decoration: underline;
+    background-color:  #b9b8b9;
+}
+.dropdown ul li:focus{
+    display: none;
+}
+
+.cart{
+    position: relative;
+    left: -14px;
+    height: 100%;
+    width: 60px;
+    float: right;
+    
+}
+.cart i {
+    position: relative;
+    margin-top: 18px;
+    margin-left: 12px;
+    font-size: 25px;
+    color: #1f3890;
+}
+.cart:hover{
+    background-color: #f8f9fd;
+}
+/*********************************************************/
+section{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    margin-top: 70px;
+    border: 0;
+}
+.product{
+    flex-wrap: wrap;
+    display: flex;
+}
+.items1{
+    height: auto;
+    width: 100%;
+    float: left;
+    display: block;
+    position: relative;
+}
+.items1 img{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.hashtag-zone1{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: auto;
+    width: 400px;
+    
+}
+.hashtag1{
+    position: relative;
+    float: left;
+    height: 30px;
+    width: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #ebedf6;
+    border-radius: 5px;
+}
+.hashtag1 h1{
+    font-family: system-ui;
+    font-size: 15px;
+    text-align: center;
+    color: #1f3890;
+    margin: 0;
+    margin-top: 4px;
+    text-decoration: none;
+    float: left;
+}
+.hashtag1:hover{
+    background-color: #cbd3f7;
+}
+
+.buy1{
+    background-color: #1f3890;
+    height: 40px;
+    width: 90px;
+    position: relative;
+    left: 50px;
+    bottom: 80px;
+    border-radius: 8px;
+}
+.buy1 h1 {
+    font-family: ui-monospace;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    margin-top: 6px;
+    margin-left: 26px;
+    text-decoration: none;
+    float: left;
+}
+.buy1:hover{
+    background-color: #172969;
+    transform: scale(120%);
+}
+.price1{
+    position: relative;
+    left: 160px;
+    bottom: 115px;
+    font-family: ui-monospace;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    margin: 0;
+    text-decoration: none;
+    float: left;
+}
+/***************************/
+.items{
+    height: auto;
+    width: 49.9%;
+    display: block;
+    float: left;
+    position: relative;
+}
+.lane2{
+    position: relative;
+    width: 1px;
+    top: 50px;
+    height: 480px;
+    float: left;
+    background-color: rgba(202, 202, 202, 0.753);
+}
+.items img{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.hashtag-zone{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: auto;
+    width: 200px;
+    
+}
+.hashtag{
+    position: relative;
+    float: left;
+    height: 30px;
+    width: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #ebedf6;
+    border-radius: 5px;
+}
+.hashtag h1{
+    font-family: system-ui;
+    font-size: 15px;
+    text-align: center;
+    color: #1f3890;
+    margin: 0;
+    margin-top: 4px;
+    text-decoration: none;
+    float: left;
+}
+.hashtag:hover{
+    background-color: #cbd3f7;
+}
+
+.buy{
+    background-color: #1f3890;
+    height: 40px;
+    width: 90px;
+    position: relative;
+    left: 50px;
+    bottom: 80px;
+    border-radius: 8px;
+}
+.buy h1 {
+    font-family: ui-monospace;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    margin-top: 6px;
+    margin-left: 25px;
+    text-decoration: none;
+    float: left;
+}
+.buy:hover{
+    background-color: #172969;
+    transform: scale(120%);
+}
+.price{
+    position: relative;
+    left: 160px;
+    bottom: 115px;
+    font-family: ui-monospace;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    margin: 0;
+    text-decoration: none;
+    float: left;
+}
+/*****************************************************************/
+
+footer{
+    height: 500px;
+    width: 100%;
+    display: block;
+    background-color: #1f3890;
+}
+.tag1{
+    position: relative;
+    width: 50%;
+    height: 50px;
+    top: 25px;
+    left: 20px;
+    float: left;
+}
+.tag1 a {
+    position: relative;
+    top: 10px;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+    float: left;
+}
+
+.tag2{
+    position: relative;
+    width: 25%;
+    height: 50px;
+    top: 25px;
+    left: 295px;
+    float: left;
+}
+.tag2 a {
+    position: relative;
+    top: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 20px;
+    float: right;
+}
+.address1{
+    position: relative;
+    width: 40%;
+    height: 50px;
+    top: 30px;
+    left: 40px;
+    float: left;
+    font-family: system-ui;
+    font-size: 13px;
+    color: rgba(209, 207, 207, 0.795);
+}
+
+.address2{
+    position: relative;
+    width: 42%;
+    height: 50px;
+    top: 30px;
+    left: 207px;
+    float: left;
+    
+}
+.address2 a{
+    position: relative;
+    float: left;
+    font-family: system-ui;
+    font-size: 13px;
+    margin-left: 30px;
+    color: rgba(209, 207, 207, 0.795);
+}
+.lane3{
+    float: left;
+    position: relative;
+    height: 1px;
+    width: 95%;
+    left: 35px;
+    top: 28px;
+    background-color: rgba(209, 207, 207, 0.795);
+}
+.address3{
+    height: 150px;
+    width: 49.9%;
+    display: block;
+    float: left;
+    position: relative;
+    top: 28px;
+  
+}
+.address3 h1 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    position: relative;
+    left: 15px;
+    float: left;
+    height: auto;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.address3 input{
+    position: relative;
+    left: 35px;
+    float: left;
+    margin-top: 2px;
+    height: 37px;
+    width: 435px;
+    border-radius: 8px;
+    border-color: rgba(209, 207, 207, 0.795);
+    background-color: #1f3890;
+    font-family: ui-monospace;
+    color: white;
+}
+.signup{
+    background-color: white;
+    height: 42px;
+    width: 85px;
+    position: relative;
+    left: 65px;
+    top: 3px;
+    float: left;
+    border-radius: 8px;
+}
+.signup h1{
+    font-family: ui-monospace;
+    font-size: 20px;
+    color: #1f3890;
+    margin-top: 9px;
+    margin-left: -4px;
+    text-decoration: none;
+    float: left;
+}
+.signup:hover{
+    /* background-color: #d1d1d1; */
+    transform: scale(120%);
+}
+
+.lane4{
+    position: relative;
+    top: 53px;
+    width: 1px;
+    height: 100px;
+    float: left;
+    background-color: rgba(202, 202, 202, 0.753);
+}
+.address4{
+    height: 150px;
+    width: 49.9%;
+    display: block;
+    float: left;
+    position: relative;
+    top: 28px;
+  
+}
+.address4 a {
+    height: auto;
+    width: auto;
+    position: relative;
+    float: left;
+    margin: 20px;
+    margin-top: 50px;
+    left: 110px;
+}
+.address4 a i {
+    font-size: 50px;
+    color: rgba(209, 207, 207, 0.795);
+}
+.address4 a :hover{
+    transform: scale(120%);
+}
+
+.lane5{
+    float: left;
+    position: relative;
+    height: 1px;
+    width: 95%;
+    left: 35px;
+    top: 28px;
+    background-color: rgba(209, 207, 207, 0.795);
+}
+
+.address5{
+    position: relative;
+    float: left;
+    top: 28px;
+    height: 150px;
+    width: 100%;
+}
+.address5 h1{
+    float: left;
+    width: 98%;
+    position: relative;
+    top: 38px;
+    color: rgba(209, 207, 207, 0.795);
+    font-size: 13px;
+    font-family: system-ui;
+    text-align: center;
+    margin: 0;
+    margin-top: 5px;
+}
+.lane6{
+    float: left;
+    position: relative;
+    height: 1px;
+    width: 95%;
+    left: 35px;
+    top: 28px;
+    background-color: rgba(209, 207, 207, 0.795);
+}
+.address6{
+    position: relative;
+    top: 28px;
+    float: left;
+    height: 69px;
+    width: auto;
+    margin: 0;
+}
+.address6 h1 {
+    position: relative;
+    top: 28px;
+    left: 35px;
+    float: left;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 0;
+    color: rgba(209, 207, 207, 0.795);
+}
+.address6 h2 {
+    position: relative;
+    top: 28px;
+    left: 41px;
+    float: left;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    margin: 0;
+}
+.address7{
+    position: relative;
+    top: 28px;
+    left: 533px;
+    float: left;
+    height: 69px;
+    width: auto;
+    margin: 0;
+}
+.address7 i{
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+    float: left;
+    color: rgba(209, 207, 207, 0.795);
+}
+.address8{
+    position: relative;
+    top: 28px;
+    float: right;
+    height: 69px;
+    width: auto;
+    margin: 0;
+}
+.address8 h1{
+    position: relative;
+    top: 28px;
+    right: 34px;
+    float: left;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    margin: 0; 
+}
